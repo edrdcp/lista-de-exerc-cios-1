@@ -4,4 +4,4 @@
 
 tempC = float(input('Temperatura em graus Celsius: '))
 tempF = (tempC  * 1.8) + 32
-print('Temperatura em graus Fahrenheit: ', tempF)
+print('Temperatura em graus Fahrenheit: %.2f' %tempF)
